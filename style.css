@@ -471,3 +471,31 @@ td {
         line-height: 1.8;
     }
 }
+.hero-title {
+    font-size: 64px !important;
+    font-weight: 800 !important;
+    line-height: 1.05 !important;
+    color: #183b56 !important;
+}
+
+.brand-diagnostics {
+    font-size: 0.75em !important;
+    color: #087f8c !important;
+}
+
+.hero-tagline {
+    font-size: 21px !important;
+    font-weight: 400 !important;
+    margin-top: 15px !important;
+    color: #526575 !important;
+}
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 43px !important;
+    }
+
+    .hero-tagline {
+        font-size: 17px !important;
+    }
+}
