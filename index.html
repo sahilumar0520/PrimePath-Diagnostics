@@ -130,3 +130,28 @@
   <script src="script.js"></script>
 </body>
 </html>
+.hero-title {
+    font-size: clamp(32px, 5vw, 48px) !important;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #183b56;
+    margin-bottom: 8px;
+}
+
+.hero-tagline {
+    font-size: clamp(16px, 2vw, 21px) !important;
+    font-weight: 500;
+    color: #087f8c;
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 30px !important;
+    }
+
+    .hero-tagline {
+        font-size: 16px !important;
+    }
+}
